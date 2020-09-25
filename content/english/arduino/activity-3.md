@@ -1,10 +1,8 @@
 ---
-title: "Arduino - Activity 3"
+title: "Activity 3 - Joystick + LEDs"
 draft: false
 weight: 6
 ---
-
-### Activity 3 - Joystick + LEDs
 
 Let’s combine activity 1 and activity 2. Let’s control LEDs based on the input from the joystick.
 1.	Attach one end of a jumper wire to GND on the joystick and the other to 7X on the Breadboard.

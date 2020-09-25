@@ -4,8 +4,6 @@ draft: false
 weight: 3
 ---
 
-# Setting up the PC
-
 Download and install the Arduino IDE from:
 * the Microsoft Store (quicker install) - https://www.microsoft.com/store/productId/9NBLGGH4RSD8
 * or from the Arduino website https://www.arduino.cc/en/Main/Software (current version is 1.8.9)

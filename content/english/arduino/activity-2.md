@@ -1,10 +1,9 @@
 ---
-title: "Arduino - Activity 2"
+title: "Activity 2 - Joystick with serial output"
 draft: false
 weight: 5
 ---
 
-### Activity 2 - Joystick with serial output
 Now that you understand how we can get the system to provide signals from the program (outputs) and use those to control LEDs, let’s look at how we can get dynamic inputs into the system. For this activity we will use a joystick input, similar to those used in video game consoles.
 1.	Attach one end of a jumper wire to GND on the joystick and the other to GND on the Elegoo.
 2.	Attach one end of a jumper wire to +5V on the joystick and the other to 5V on the Elegoo.

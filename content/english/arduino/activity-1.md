@@ -1,10 +1,8 @@
 ---
-title: "Arduino - Activity 1"
+title: "Activity 1 - Blinking LED"
 draft: false
 weight: 4
 ---
-
-### Activity 1 - Blinking LED
 
 For your introduction to this system we can get the basics of circuitry and how our program can run and manipulate components (in this case turn an LED on and off).
 

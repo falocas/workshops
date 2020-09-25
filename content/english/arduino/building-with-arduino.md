@@ -5,7 +5,6 @@ draft: false
 weight: 1
 ---
 
-## Introduction - Building with Arduino
 This tutorial is designed for beginners. You will learn all the basic information about how to use the Arduino controller board, sensors, and components.
 
 Electronics like microcontrollers, sensors, and all types of circuitry are all around us. Some are very basic and provide telemetry information for traffic systems. Others run the traffic lights programmed with built-in timing.

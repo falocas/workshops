@@ -4,7 +4,6 @@ draft: false
 weight: 2
 ---
 
-## The Components
 The components we will use for the project are shown below. Make sure you have all these components before starting: 
 
 ![Cannot load image](../img/img2.png)

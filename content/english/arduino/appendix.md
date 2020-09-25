@@ -5,8 +5,6 @@ draft: false
 weight: 1
 ---
 
-# Appendix
-
 ## The components, in detail
 
 Imagine our circuit is a play. Before the final performance in front of an audience, we need a place to practice. This is where the breadboard comes in. 
