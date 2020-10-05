@@ -54,7 +54,7 @@ Condition:
 
 * Using only 1 input inside `IN()` is equivalent to using `=`: 
 
-Ex. `column_name IN('obejct_in_column');` is the same as `column_name = 'obejct_in_column';`
+Ex. `column_name IN('object_in_column');` is the same as `column_name = 'object_in_column';`
 {{%/notice%}}
 
 ### Now use what you learned! Using the database called 'items' with columns labeled 'object' and 'height', find the tallest 'ladder'.

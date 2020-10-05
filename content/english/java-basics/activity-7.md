@@ -4,11 +4,11 @@ description: "Introduce basic data structures in Java."
 date: 2020-07-16T00:00:00Z
 weight: 8
 ---
-In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similiar data? Is there a good way to organize them without declaring multiple variables?
+In previous exercises, we learned that variables allow us to access and store a piece data. But, what if we want to store a bunch of similar data? Is there a good way to organize them without declaring multiple variables?
 
 In programming, <b>data structures</b> are structures that allowed coders to store multiple pieces of data of the same type. Using data structures is an efficient way to store and access large pieces of data. In this exercise, we will learn about 2 data structures used in Java: <b>array</b> and <b>ArrayList</b>.
 
-While array is a fixed length data structure, ArrayList is a variable lengthed where you can change the size of the data structure. Let's start by looking at arrays!
+While an array has a fixed length data structure, `ArrayList`s can have a variable length where you can change the size of the data structure. Let's start by looking at arrays!
 
 ### 1. Array
 Let's say we want to store Patrick's 🐥 top 5 favorite movies. Instead of creating 5 variables, we can store all 5 pieces of data in an array, our first data structure!
@@ -75,9 +75,9 @@ Birds Of Prey, The Birds, Angry Birds, Bird Box, The Secret Life of Pets
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsArray?lite=true#Bird.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### 2. ArrayList
-ArrayList is another popular data structure in Java. `ArrayList` is a class that was implemented using arrays. It is similiar to an array that user access, store, and modify data by an index.
+`ArrayList` is another popular data structure in Java. An `ArrayList` is a class that was implemented using arrays. It is similar to an array that user access, store, and modify data by an index.
 
-You create an ArrayList by specifying a name and the type between `<` and `>`. 
+You create an `ArrayList` by specifying a name and the type between `<` and `>`. 
 For example:
 ```java
 ArrayList<String> topMoviesList = new ArrayList<String>();
@@ -106,13 +106,13 @@ int numOfMovie2 = topMoviesList.size(); // numOfMovie2 has value 5
 ```
 <br />
 
-As we briefly mentioned above, the critical difference between array and ArrayList is that you need to know number of elements to store in an array upfront, but you do not for an ArrayList.
+As we briefly mentioned above, the critical difference between an `array` and an `ArrayList` is that you need to know number of elements to store in an array upfront, but you do not have to for an `ArrayList`.
 
 - With the line of code `String topMovies[] = new String[5]` the array `topMovies` will forever have length 5. As a result, you can't store more than 5 Strings in `topMovies` after creating it.
 
-- However, with the line of code `ArrayList<String> topMoviesList = new ArrayList<String>()`, the ArrayList starts with 0 element and can be infinitely added to or remove from.
+- However, with the line of code `ArrayList<String> topMoviesList = new ArrayList<String>()`, the `ArrayList` starts with 0 element and can be infinitely added to or remove from.
 
-To remove an element from an ArrayList, we call the method `remove()`. 
+To remove an element from an `ArrayList`, we call the method `remove()`. 
 For example:
 ```java
 System.out.print(topMoviesList.size()); // prints out 5

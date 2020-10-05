@@ -2,7 +2,7 @@
 title: "Using Virtual Machines Part 2"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-09-17
-prereq: "Completed Virtual Box set up and imported the Nuevo Linux Basics Virtual Machine."
+prereq: "Completed Virtual Box set up and imported the Nuevo Linux Basics Virtual Machine"
 difficulty: "Intermediate"
 weight: 2
 ---
@@ -15,7 +15,7 @@ weight: 2
 Both are copies of things from a single point in time.
 
 This means what we will be working with is a copy of the computer that has been acting weird.
-Don't worry though, this won't hurt your computer!
+Don't worry though, this won't hurt your own computer!
 {{% /notice %}}
 
 ## Setting up Kali Linux
@@ -26,7 +26,7 @@ Don't worry though, this won't hurt your computer!
 VirtualBox uses the .ova for their machine images.
 
 Let's download our copy of the computer! Click the link below to download.  
-Most images are big (~8GB), but ours is only ~3GB. The download still might take a few minutes.
+Most images are big (~8GB), but ours is only ~3GB. The download still might take a few minutes - please ensure you have a stable internet connection prior to downloading.
 
 <a class="my-2 mx-4 btn btn-info" href="https://nuevofoundation-my.sharepoint.com/:u:/r/personal/beatris_mendezgandica_nuevofoundation_org/Documents/Linux-Workshop/nuevo-linux-basics.ova?csf=1&web=1&e=5sekOO">
 Download link

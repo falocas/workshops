@@ -72,7 +72,7 @@ Each field is declared in the format: `private` `data type` `name` `;`.
 1. We declare all 5 fields as `private` in the class `Bird`. This ensures these data can only be accessed within this class.
 
 2. Let's identify the appropriate type for each field:
-- `species` should be a `String` that stores for exmaple: "duck", "swan", "owl".
+- `species` should be a `String` that stores for example: "duck", "swan", "owl".
 - `name` should be a `String` that stores for example: "Patrick".
 - `hobby` should be a `String` that stores for example: "play basketball".
 - `age` should be an `int` that stores for example: 25.
@@ -85,7 +85,7 @@ For example, to declare `species` as a private field of class `Bird`, you would 
 <br />
 
 #### Third, let's create the constructor for the class `Bird`. 
-Usually, constructor is the method that initialializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
+Usually, constructor is the method that initializes value to all the fields in a class. It has the format `public` `class name` `(parameter)`. Since we have 5 fields in this class, the constructor will take in 5 parameter/inputs.
 ```java
 public Bird(String speciesInput, String nameInput, String hobbyInput, int ageInput, boolean loveMusicInput){
     // constructor body
@@ -97,7 +97,7 @@ species = speciesInput;
 name = nameInput;
 hobby = hobbyInput;
 age = ageInput;
-loveMusic = loveMusicinput;
+loveMusic = loveMusicInput;
 ```
 <br />
 
@@ -154,7 +154,7 @@ If there is still something incomplete or incorrect when you click `Run`:
 ### 3. Creating Birds 🐥!
 Congratulations! You just wrote you first Java class `Bird` class. Now let's learn to write a program that uses `Bird` objects!
 
-We defined the `Bird` class to have the following attributes (instance variables) and bahaviors (methods):
+We defined the `Bird` class to have the following attributes (instance variables) and behaviors (methods):
 <img src="../images/bird_class.png" height="450"/> 
 
 

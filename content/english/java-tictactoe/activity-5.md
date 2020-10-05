@@ -29,7 +29,7 @@ We will do so by adding artificial intelligence into our program with the use th
 ### Minimax Algorithm
 Minimax is an algorithm that is used in two-player games to make optimal decisions for a player. 
 
-- The two players are labeled as <b>maximizer</b> and <b>minimizer</b> respectedly. While the maximizer maximizes its chance to win, the minimizer tries to minimize its loss.
+- The two players are labeled as <b>maximizer</b> and <b>minimizer</b> respectively. While the maximizer maximizes its chance to win, the minimizer tries to minimize its loss.
 - The algorithm examines all the possible future game states based on the current game board assuming both the maximizer and minimizer will pick the move that benefits them the most. 
 - In our case, we pick the computer to be the maximizer, and the player to be the minimizer. We will attempt to make optimal decision for the computer by maximize its chance to win!
 

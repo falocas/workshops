@@ -41,7 +41,7 @@ The following are the important data types that have been built-in in Java:
 
 - `boolean` type: a type that is either the value `true` or `false`.
 
-- `double` type: type that store fractional numbers (i.e. `2.0`, `3.14`, `9.33`).
+- `double` type: type that store decimal numbers (i.e. `2.0`, `3.14`, `9.33`).
 {{% /notice %}}
 
 Let's revisit the three variables we talked about and identify their data types. 
@@ -56,7 +56,7 @@ boolean loveMusic = true;
 ```
 
 ### 3. What the Type -- Help Patrick! 
-Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistake:
+Patrick 🐥 isn't a master of data types! He often mixed them up when declaring variables. Let's help him fix his mistakes. If you did everything correctly, pressing the **Run** button will not produce any red errors.
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsDataType?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 {{% notice tip %}}

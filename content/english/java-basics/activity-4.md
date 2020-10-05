@@ -22,7 +22,7 @@ However, we also know Patrick 🐥 should only decide to say one of these statem
 
 In other words, we need to write code that makes a decision on what to print depend on a situation.
 
-In Java, we make a decision by using <b>if statement</b> or <b>if...else statement</b>. Read the notes below:
+In Java, we make a decision by using an <b>if statement</b> or an <b>if...else statement</b>. Read the notes below:
 
 {{% notice note %}}
 #### If Statement
@@ -31,7 +31,7 @@ if(boolean expression){
     statement(s)
 }
 ```
-An <b>if statement</b> follows the structure shown above. The statement in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block.
+An `if` statement follows the structure shown above. The statement in the block will only be executed if the boolean expression is `true`. Otherwise, the program will skip to the statement after the block.
 #### If-Else Statement
 ```
 if(boolean expression){
@@ -40,7 +40,7 @@ if(boolean expression){
     statement(s) B
 }
 ```
-An <b>if-else statement</b> follows the structure shown above. If the boolean expression is `true`, the program will execute the if-block with `statement(s) A`. Otherwise, the program executes only the else-block with `statement(s) B`.
+An `if-else` statement follows the structure shown above. If the boolean expression is `true`, the program will execute the if-block with `statement(s) A`. Otherwise, the program executes only the else-block with `statement(s) B`.
 #### Example
 ```java
 boolean likeMusic = true;
@@ -53,7 +53,7 @@ if(likeMusic == true){
 The code above will print the statement `I like Music` because the boolean expression, `likeMusic == true`, is true.
 {{% /notice %}}
 
-Let's revisit the greating example above, and make decision for Patrick on whether to say "Good Morning," "Good Afternoon," "Good Night". 
+Let's revisit the greeting example above, and make a decision for Patrick on whether to say "Good Morning," "Good Afternoon," "Good Night". 
 
 Patrick should say "Good Morning" between 0:00 - 11:59, "Good Afternoon" between 12:00 - 19:59, and "Good Night" between 20:00 - 23:59.
 
@@ -71,7 +71,7 @@ The teacher asks them to find the <b>sum of 1, 2, 3, ...., 100</b>. That is what
 While we can plug this in to a calculator, that is gonna take a while. Thankfully, in Java, you can easily calculate this in 3 lines with the help of a <b>for loop</b> or <b>while loop</b>.
 
 {{% notice note %}}
-<b>For loop</b> and <b>While loop</b> are control structures in Java that allow you to execute blocks of code multiples times.
+`For` loops and `while` loops are control structures in Java that allow you to execute blocks of code multiples times.
 
 #### While Loop
 ```
@@ -127,6 +127,6 @@ while(num <= 100){
 }
 System.out.println("Answer calculated in a while loop: " + total);
 ```
-Test this out below by clicking `Run` and write a for loop version that calculates the same thing! You should get the same answer!
+Test this out below by clicking `Run` and write a `for` loop version that calculates the same thing! You should get the same answer!
 
 <iframe height="600px" width="100%" src="https://repl.it/@nuevofoundation/JavaBasicsForWhile?lite=true#Main.java" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>

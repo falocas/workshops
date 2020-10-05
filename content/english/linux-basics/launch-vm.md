@@ -2,7 +2,7 @@
 title: "Starting up the Virtual Machine"
 description: "Continuing the introductory guide to using virtual machines."
 date: 2020-09-17
-prereq: "Completed the Virtual Box set up."
+prereq: "Completed the Virtual Box set up"
 difficulty: "Intermediate"
 weight: 3
 ---

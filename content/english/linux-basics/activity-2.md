@@ -2,7 +2,7 @@
 title: "Activity 2 - Determine User Location"
 description: "Use a Linux command to determine what directory you are currently in"
 date: 2020-09-17
-prereq: "None."
+prereq: "None"
 difficulty: "Intermediate"
 weight: 5
 ---

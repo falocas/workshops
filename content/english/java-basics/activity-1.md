@@ -9,7 +9,7 @@ weight: 2
 
 Let’s try to write a program that says `Hello World` out by typing the line of code `System.out.print("Hello World");` 
 
-The program prints out whatever you typed in the parenthesis of `System.out.print(`. And, each line of code ends with `;`.
+The program prints out whatever you typed in the parenthesis of `System.out.print`. Note that each line of code **must** end with `;`.
 
 After, add more statements to print numbers by putting numbers in the parenthesis (i.e. `System.out.print(2020)`) or a symbol by putting one symbol between 2 single quotes `'` (i.e. `System.out.print('@')`).
 
@@ -18,11 +18,11 @@ After, add more statements to print numbers by putting numbers in the parenthesi
 {{% notice tip %}}
 #### Do you notice that all the statements you typed end up printing everything in one line?
 Sometimes we want to enter a new line when typing. 
-And, to do that, we type a slightly different code `System.out.println();` 
+To do that, we use a slightly different line of code: `System.out.println();` 
 
-(Note: we type `println` instead of `print` to create a new line after)
+(Note: we type `println` instead of `print` to create a new line at the end of the sentence we wish to print.)
 
-Give it a try and make all the statements in different lines above!
+Give it a try and print all the statements above on different lines!
 {{% /notice %}}
 
 {{% notice tip %}}
@@ -41,7 +41,7 @@ For example, how do we tell computer to print `"`?
 
 If you type `System.out.print(""");`, you will get an error! because the computer can't identify where the text ends!
 
-Instead, certain characters need to be <b>escaped</b> by adding a `\` in front of it.
+Instead, certain characters need to be **escaped** by adding a `\` in front of it.
 
      System.out.print("\"");  // this prints out "
 
@@ -64,9 +64,9 @@ Use what you just learn and recreate this owl below using just 4 lines of code! 
 #### I got an error!
 
      Main.java:4: error: reached end of file while parsing
-If you get an error like this such as, it is posible that you forgot to escape chararcters such as `"` and `\`.
+If you get an error like this such as, it is possible that you forgot to escape characters such as `"` and `\`.
 
-Revisit the thrid tip above to see how to escape characters in a print statement!
+Revisit the third tip above to see how to escape characters in a `print` statement!
 {{% /notice %}}
 
 ### 3. Make a Comment

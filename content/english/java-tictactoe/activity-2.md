@@ -91,9 +91,9 @@ Also, note that number inputs that are not in the range 1 - 9 wouldn't crash the
 
 6. In the `try` block, we get number inputs from users. However, not all the inputs are valid as we should only accept available spots on the board.
 
-Use if statement(s) to check whether the number input is valid. (Hint: access the `board` array to check if the input is valid).
+Use `if` statement(s) to check whether the number input is valid. (**Hint**: access the `board` array to check if the input is valid).
 
-If it's not, print the statment `Invalid Position; re-enter your move (1-9):`.
+If it's not, print the statement `Invalid Position; re-enter your move (1-9):`.
 
 {{% notice hint %}}
 #### How to I check if two Strings are the same?

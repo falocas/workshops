@@ -34,10 +34,10 @@ Give it a try in the following repl.it first; it will tell you if your method is
 #### Ideas/Hints for writing the method `getWinner()`
 - Concatenate `Strings` at the 3 positions that consist a horizontal, vertical, or diagonal row.
 - Use `equals()` to check if each of the concatenated Strings is `"XXX"` or `"OOO"` for a winner. (You can even create another method that checks if an input `String` is `"XXX"` or `"OOO"`)
-- If all the spots in the array is filled (a `for loop` can be helpful) and there is no winner, the game ends in a tie.
+- If all the spots in the array is filled (a `for` loop can be helpful) and there is no winner, the game ends in a tie.
 {{% /notice %}}
 
-2. In `main()`, call the method `gerWinner()` after the line of code where you place the player's move, `"X"`. 
+2. In `main()`, call the method `getWinner()` after the line of code where you place the player's move, `"X"`. 
 
 Check if the game should continue (when there is no winner or a tie). 
 

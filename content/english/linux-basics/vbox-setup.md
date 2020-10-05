@@ -2,7 +2,7 @@
 title: "Using Virtual Machines Part 1"
 description: "An introductory guide to using virtual machines."
 date: 2020-09-17
-prereq: "Permissions to install software on the computer."
+prereq: "Permissions to install software on the computer"
 difficulty: "Intermediate"
 weight: 1
 ---

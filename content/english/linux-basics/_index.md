@@ -2,7 +2,7 @@
 title: "Linux Basics"
 description: "An introductory guide to using the Linux command line."
 date: 2020-09-17
-prereq: "None."
+prereq: "None"
 difficulty: "Intermediate"
 download: ""
 draft: false
@@ -21,7 +21,7 @@ Microsoft Windows is the OS you are probably most familiar with using at home. A
 
 Linux is a free and open source operating system based on Unix standards which provides a programming interface as well as user interface compatibility. Kali adds to Linux a variety of applications that are used in computer security.
 
-The biggest differnce between Windows and Linux is what they are best at doing. Windows is really good for multimedia and games! Mac OS falls between Windows and Linux. It is great for multimedia too, but cannot play all the games. Linux is usually better for programming and hosting servers.
+The biggest difference between Windows and Linux is what they are best at doing. Windows is really good for multimedia and games! Mac OS falls between Windows and Linux. It is great for multimedia too, but cannot play all the games. Linux is usually better for programming and hosting servers.
 
 
 

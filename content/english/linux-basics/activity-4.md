@@ -2,7 +2,7 @@
 title: "Activity 4 - Note Taking Practice"
 description: "Use Linux commands to view the contents of the current directory"
 date: 2020-09-17
-prereq: "None."
+prereq: "None"
 difficulty: "Intermediate"
 weight: 7
 ---
@@ -39,7 +39,7 @@ Now when we type `ls -l` we can see that the file has been created.
 
 ### What if I want to add data to the file?
 
-An empty file doen't have much use, so lets add some data to it, like our name.
+An empty file doesn't have much use, so lets add some data to it, like our name.
 To open the file for editing, we will use the `vim` command. Vim is an editor that allows us to add, remove and change the data in a file. 
 
 Type in the command below to edit file1:

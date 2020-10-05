@@ -46,7 +46,7 @@ public class Main {
 }
 ```
 
-2. In `main()`, write print statement(s) to print the welcome statement and rules for the game!
+2. In `main()`, write `print` statement(s) to print the welcome statement and rules for the game!
 ```
 <<<~  Tic  Tac  Toe  ~>>>
 * Choose number 1 - 9 to place your move
@@ -55,7 +55,7 @@ public class Main {
 
 3. In this game, we note that we will have to track the symbol currently in each of the 9 positions on the board. 
 
-   Hence, we will need to store 9 pieces of data in the program. Let's use an `array`(a data stucture) of size 9 to store these information. 
+   Hence, we will need to store 9 pieces of data in the program. Let's use an `array` (a data structure) of size 9 to store these information. 
 
    As stated in the rules, on the game board, `"X"` is the player's move, `"O"` is a computer move, and `" "` is an available spot.
 
@@ -63,7 +63,7 @@ public class Main {
 
 4. Now we have the variable `board` storing current symbols on the game board, let's try to print out an empty game board using print statements (shown below). 
 
-   Note that each game board consists of 5 lines, so it is reasonable to have 5 print statment to print out each board. 
+   Note that each game board consists of 5 lines, so it is reasonable to have 5 print statement to print out each board. 
    
    Each of the 9 blocks is a `String` of length 3, where the middle character is the current symbol stored in `board` at the corresponding position.
 

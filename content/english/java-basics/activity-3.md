@@ -12,9 +12,9 @@ int age = 3;  // declare variable age of type int with value 3
 age = 4;      // assign 4 to the variable age
 ```
 
-Looking at the code above, it essentially add 1 to the value of the variable `age`. 
+Looking at the code above, it essentially adds 1 to the value of the variable `age`. 
 
-And, in Java, we can perform math operations on variables directly with <b>arithmetic operators</b>: `+`, `-`, `*`, `/`, `%`.
+In Java, we can also perform math operations on variables directly with **arithmetic operators**: `+`, `-`, `*`, `/`, `%`.
 For example, we can use the add operator `+` to add 1 to `age`:
 ```java
 int age = 3;  // declare variable age of type int with value 3
@@ -29,28 +29,28 @@ The following are the arithmetic operators in Java:
 
 - `*`: multiplication.
 
-- `/`: (regular real) division. <b>Note</b>: `10 / 4` returns 2, not 2.5 since we throw away the remainder.
+- `/`: (regular real) division. **Example**: `10 / 4` returns 2, not 2.5 since we throw away the remainder.
 
-- `%`: mod/remainder. <b>Note</b>: `10 / 4` returns 2. This operation get the remainder of the division.
+- `%`: mod/remainder. **Example**: `11 % 4` returns 3. This operation get the remainder of the division.
 {{% /notice %}}
 
 {{% notice tip %}}
-Add (`+`) is used on String as concatenation operator. For example:
+Add (`+`) can also be used on `String`s as concatenation operator. For example:
 
-`String name = "Patric" + "k";` is same as `String name = "Patrick";`
+`String name = "Patric" + "k";` stores the string `"Patrick"` in the variable `name`.
 {{% /notice %}}
 
 ### 2. Comparisons: Relational Operator
-Next, let's learn how to compare numbers. Let me introduce the <b>relational operators</b>.
+Next, let's learn how to compare numbers using <b>relational operators</b>.
 
 Just like in math, we can compare numbers using `>`, `<`, `>=`, `<=`. For example: `(3 > 2)` is `true`, a boolean value.
 
 {{% notice note %}}
 The following are the relational operators in Java:
 
-- `==`: equal to. (i.e. `(3 == 3)` is `true`)
+- `==`: equal to. (i.e. `(1 + 2 == 4)` is `false`)
 
-- `!=`: not equal to. (i.e. `(3 != 3)` is `false`)
+- `!=`: not equal to. (i.e. `(1 + 2 != 4)` is `true`)
 
 - `>`: greater than.
 

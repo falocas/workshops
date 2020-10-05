@@ -6,7 +6,7 @@ weight: 6
 ---
 
 ### 1. What is A Method?
-So far, we've learned about how to store data in variables, print data and sentences, and make decisions with if-statement, for-loop, and while-loop. 
+So far, we've learned about how to store data in variables, print data and sentences, and make decisions with `if`-statements, `for`-loops, and `while`-loops. 
 
 From the last exercise, we know the following block of code calculates the sum from 1 to 100:
 ```java
@@ -23,7 +23,7 @@ But what if we want to calculate the sum from 1 to 77 instead? How do we do it w
 We want to create a ✨ magic box ✨ in code that does the calculation for us no matter which 2 numbers we want to create a sum for!
 <img src="../images/method.png" height="250"/> 
 
-In Java, a <b>method</b> is like the magic box that performs a specfic task by running a block of code using user inputs. 
+In Java, a <b>method</b> is like the magic box that performs a specific task by running a block of code using user inputs. 
 
 There are 2 parts in a method: header and body:
 
@@ -55,7 +55,7 @@ This is an example of how to define a method that sum of numbers from `numA` thr
 ```java
 /* Method Name: sumNum
  * Input/Parameter: 2 numbers of type int
- * Funtionality: return the sum from numA through numB
+ * Functionality: return the sum from numA through numB
  */
 public int sumNum(int numA, int numB){
     int total = 0;
